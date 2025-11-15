@@ -1,0 +1,10 @@
+# Pastas de dependências que são grandes e desnecessárias no Git
+/server/node_modules
+/client/node_modules
+
+# Arquivo de segredo - NUNCA ENVIE O .ENV PARA O REPOSITÓRIO PÚBLICO!
+/server/.env
+
+# Arquivos de build e log
+/client/build
+npm-debug.log*
